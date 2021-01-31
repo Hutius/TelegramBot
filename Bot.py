@@ -32,6 +32,10 @@ async def get_anecdote(message: types.Message):
         page = (text.getText().strip())
     await message.reply(page)
 
+@dp.message_handler()
+async def echo_message(msg: types.Message):
+    print(msg.from_user.id, msg.text)
+
 
 if __name__ == '__main__':
     executor.start_polling(dp, skip_updates=True)

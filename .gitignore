@@ -1,3 +1,7 @@
 settings.py
 env/
+<<<<<<< HEAD
 __pycache__/
+=======
+__pycache__/
+>>>>>>> 83252714b7cdf5cda41b4d135cd5ab3b65eff8f1
