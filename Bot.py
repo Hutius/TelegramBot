@@ -1,10 +1,10 @@
 import logging
+import requests
 from typing import Text
-
-from aiogram import Bot, Dispatcher, executor, types
 from bs4 import BeautifulSoup
 from settings import TG_TOKEN
-import requests
+from aiogram import Bot, Dispatcher, executor, types
+
 
 API_TOKEN = TG_TOKEN
 
